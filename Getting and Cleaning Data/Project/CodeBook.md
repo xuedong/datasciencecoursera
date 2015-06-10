@@ -11,15 +11,15 @@ Variable list
 
 Variable name     | Description
 ------------------|------------
-xtrain            |
-xtest             |
-x                 |
-ytrain            |
-ytest             |
-y                 |
-strain            |
-stest             |
-s                 |
+xtrain            | xtrain is the data set from the X_train.txt file, which contains the training set
+xtest             | xtest is the data set from the X_test.txt file, which contains the test set
+x                 | x is the merge of the previous two data sets
+ytrain            | ytrain is the data set from the y_train.txt file, which contains the training labels
+ytest             | ytest is the data set from the y_test.txt file, which contains the test labels
+y                 | y is the merge of the previous two data sets
+strain            | strain is the data set from the subject_train.txt file, which contains the subjects who performed the corresponding activity for the training set
+stest             | stest is the data set from the subject_test.txt file, which contains the subjects who performed the corresponding acitvity for the test set
+s                 | s is the merge of the previous two data sets
 features          |
 required_features |
 activities        |
