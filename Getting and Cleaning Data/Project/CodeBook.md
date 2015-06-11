@@ -20,8 +20,8 @@ y                 | y is the merge of the previous two data sets
 strain            | strain is the data set from the subject_train.txt file, which contains the subjects who performed the corresponding activity for the training set
 stest             | stest is the data set from the subject_test.txt file, which contains the subjects who performed the corresponding acitvity for the test set
 s                 | s is the merge of the previous two data sets
-features          |
-required_features |
+features          | features is the data set from the features.txt file in which we could find all features
+required_features | we then extract the required mean and std rows from the previous data set, and we call it required_features
 activities        |
 cleaned_set       |
 subjects          |
